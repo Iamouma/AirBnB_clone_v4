@@ -1,13 +1,13 @@
 $(document).ready(function () {
-    // Creates an empty object to store amenities with their status (checked or unchecked)
+    // Create an empty object to store amenities with their status (checked or unchecked)
     const amenities = {};
 
-    // Listens for changes on all input checkboxes
+    // Listen for changes on all input checkboxes
     $('input[type=checkbox]').change(function () {
-        // Gets the 'data-name' attribute of the changed checkbox, which represents the amenity_id
+        // Get the 'data-name' attribute of the changed checkbox, which represents the amenity_id
         const amenity_id = $(this).data('name');
 
-        // Checks if the checkbox is checked
+        // Check if the checkbox is checked
         if ($(this).is(':checked')) {
             // If checked, set the amenity_id as a property in the 'amenities' object with a value of 'true'
             amenities[amenity_id] = true;
