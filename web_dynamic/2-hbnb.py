@@ -49,4 +49,8 @@ def hbnb():
 
 if __name__ == "__main__":
     """ Main Function """
+<<<<<<< HEAD
     app.run(host='0.0.0.0', port=5000)
+=======
+    app.run(host='0.0.0.0', port=5000)
+>>>>>>> ca55070f6c4ccdf5b04e450a36f3c4dafaaeb6a0
