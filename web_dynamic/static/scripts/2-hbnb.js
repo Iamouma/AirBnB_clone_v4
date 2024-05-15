@@ -1,7 +1,7 @@
 // Wait for the document to be fully loaded
 $('document').ready(function () {
     // Define the URL of the API endpoint
-    const url = 'http://0.0.0.0:5001/api/v1/status/';
+    const url = 'http://52.90.0.78:5001/api/v1/status/';
 
     // Send a GET request to the API endpoint
     $.get(url, function (data) {
